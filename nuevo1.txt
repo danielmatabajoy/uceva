@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Movimiento en 2D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simulación de Movimiento en 2D</h1>
+    </header>
+
+    <main>
+        <!-- Sección de la simulación -->
+        <section id="simulacion">
+            <canvas id="simulacionCanvas" width="800" height="600"></canvas>
+            <div id="controles">
+                <button id="iniciar">Iniciar</button>
+                <button id="pausar">Pausar</button>
+                <button id="reiniciar">Reiniciar</button>
+            </div>
+        </section>
+
+        <!-- Sección de teoría -->
+        <section id="teoria">
+            <h2>Teoría</h2>
+            <p>
+                En esta simulación, se estudia el movimiento de un objeto en dos dimensiones...
+                <!-- Aquí puedes agregar fórmulas y explicaciones -->
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por [Tu Nombre]</p>
+    </footer>
+
+    <script src="simulacion.js"></script>
+</body>
+</html>s
